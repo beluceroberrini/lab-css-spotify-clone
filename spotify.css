@@ -36,8 +36,6 @@ ul{
 
 .music h1{
     font-size: 100px;
-
-
 }
 .music h2{
     font-size: 30px;
@@ -74,7 +72,7 @@ header{
     width: 100px;
 }
 .bloques h3{
-    color: rgb(48, 207, 154);
+    color:  rgb(25, 186, 113);
     margin: 8px;
     font-size: 35px;
 }
@@ -86,13 +84,16 @@ header{
 }
 
 .contenedor-final{
-    background-color: rgb(48, 207, 154) ;
+    background-color: rgb(25, 186, 113) ;
     background-image: url(/images/spotify-icon-white.png);
     background-repeat: no-repeat;
     height: 1000px ;
+    justify-content: center;
 
 }
 .contenedor-final img{
+    display: flex;
+    width: 300px;
     
 }
 
