@@ -13,13 +13,16 @@ li{
 }
 .menu img{
     width: 180px;
+    margin: 25px;
+    
 }
 .menu{
     display: flex;
     justify-content: space-between ;
     align-items: center;
     background-color: white;
-    height: 60px;
+    height: 80px;
+    
 }
 ul{
     display: flex;
@@ -28,78 +31,128 @@ ul{
 
 .music{
     color: aliceblue;
+    align-self: center;
     text-align: center;
     margin-top: 200px;
-    
-
 }
 
 .music h1{
-    font-size: 100px;
+    font-size: 80px;
 }
 .music h2{
-    font-size: 30px;
-    padding: 10px 50px 10px 50px ;
+    font-size: 28px;
+    font-weight: 100;
+    width: 50%;
+    margin-left: 25%;
+    line-height: 35px;
 }
 header{
     background-image: url('/images/landing.jpg');
-    height: 100vh;
+    height: 130vh;
     background-size: cover;
-    margin: auto;
-    
-
+    margin: auto;   
 }
 
 .contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
     text-align: center;
+    flex-direction: column;
 
 }
 .contenedor h1{
-    font-size: 40px;
-    margin:50px;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    border-bottom: solid 4px  rgb(25, 186, 113);
+    padding-bottom: 4px;
 }
+
 .bloques{
     display: flex;
-    text-align: center;
-    justify-content: space-around;
-    padding: 120px;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
 
-}
 .bloque{
-    padding: 20px;
+    width: 250px;
 }
+
 .bloques img{
-    width: 100px;
+    height: 100px;
 }
 .bloques h3{
     color:  rgb(25, 186, 113);
     margin: 8px;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .bloques p{
     font-size: 20px;
-    line-height: 18px;
+    line-height: 25px;
+    margin-top: 20px;
     justify-content: center;
 }
 
-.contenedor-final{
-    background-color: rgb(25, 186, 113) ;
-    background-image: url(/images/spotify-icon-white.png);
-    background-repeat: no-repeat;
-    height: 1000px ;
-    justify-content: center;
-
-}
-.contenedor-final img{
+.blueBlock{
+    background-color:#00B172;
+    color:#FFF;
     display: flex;
-    width: 300px;
-    
+    flex-direction: row;
+    justify-content:space-around;
+    position: relative;
+    height: 500px;
+    padding: 65px;
 }
 
-.contenedor-final h3{
-    font-size: 40px;
+.screenshot{
+    height: 500px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.underline1{
     display: flex;
     justify-content: center;
+}
 
+.underline1 h2{
+    border-bottom: solid 4px #00B172;
+    padding-bottom: 4px;
+}
+
+.underline2 h2{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    font-size: 32px;
+    margin-bottom: 30px; 
+}
+
+.grouptextFooter{
+    display: flex;
+    flex-direction: column;
+}
+
+.logoWhite{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 46%;
+    left: 46%;
+}
+
+.screenshot img {
+    width: 100%;
+}
+
+.textFooter{
+    width: 35%;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.textFooter h3{
+    font-size: 23px;
 }
